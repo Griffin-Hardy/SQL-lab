@@ -1,0 +1,39 @@
+-- SELECT title, album_id FROM album;
+
+
+-- DELETE FROM customer
+-- where customer_id = 4;
+
+-- SELECT COUNT(*) FROM customer;
+
+-- SELECT AVG(customer_id) FROM customer;
+
+-- SELECT * FROM customer
+-- WHERE city = 'Paris' OR city = 'Rome';
+
+-- SELECT * FROM customer
+-- WHERE city IN('Paris', 'Rome', 'Dublin')
+-- ORDER BY city ASC;
+-- ORDER BY customer_id DESC
+
+
+-- CREATE TABLE food (
+--   food_id SERIAL PRIMARY KEY,
+--  	food_name VARCHAR(30),
+--  	price FLOAT,
+--   is_good BOOLEAN
+--  );
+
+-- INSERT INTO food (food_name, price, is_good)
+-- VALUES
+-- ('anchovies', 1.50, false), ('mushrooms', 1, true);
+
+-- UPDATE food
+-- SET is_good = false
+-- WHERE food_id = 7;
+
+-- DELETE
+-- FROM food
+-- WHERE food_id = 5;
+
+-- SELECT * FROM food;
